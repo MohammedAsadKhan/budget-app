@@ -125,4 +125,3 @@ src/
 ## 📄 License
 
 MIT
-
