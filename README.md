@@ -8,6 +8,19 @@ Built as a software engineering portfolio project using React, TypeScript, and T
 
 ---
 
+## 📸 Screenshots
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Pay Tracker
+![Pay Tracker](screenshots/pay-tracker.png)
+
+### Reports
+![Reports](screenshots/reports.png)
+
+---
+
 ## ✨ Features
 
 ### 🔐 Security First
@@ -45,9 +58,9 @@ Built as a software engineering portfolio project using React, TypeScript, and T
 - Monthly spending limits per category
 - Live progress bars with over-budget alerts
 
-### 👨‍👧 Dad's Debt
-- Dedicated page to track money owed to family
-- Payment history with repayment progress
+### 🏦 Debt Tracker
+- Dedicated page to track money owed
+- Payment history with repayment progress bar
 - No interest tracking (halal ✅)
 
 ### 📈 Reports
