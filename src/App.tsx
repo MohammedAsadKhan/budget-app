@@ -48,7 +48,7 @@ export default function App() {
       case 'transactions': return <Transactions />;
       case 'pay-tracker': return <PayTracker />;
       case 'budgets': return <Budgets />;
-      case 'dads-debt': return <DadsDebt />;
+      case 'debt': return <DadsDebt />;
       case 'reports': return <Reports />;
       case 'settings': return <Settings />;
       default: return <Dashboard />;

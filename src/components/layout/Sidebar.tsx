@@ -3,7 +3,7 @@ import { LayoutDashboard, Wallet, ArrowLeftRight, Calendar, PieChart, HandHeart,
 import { clearSession } from '../../security/crypto';
 import { useStore } from '../../store';
 
-export type Page = 'dashboard' | 'accounts' | 'transactions' | 'pay-tracker' | 'budgets' | 'dads-debt' | 'reports' | 'settings';
+export type Page = 'dashboard' | 'accounts' | 'transactions' | 'pay-tracker' | 'budgets' | 'debt' | 'reports' | 'settings';
 
 interface Props {
   current: Page;
@@ -16,7 +16,7 @@ const NAV_ITEMS: { id: Page; label: string; icon: React.FC<any>; accent?: string
   { id: 'transactions', label: 'Transactions', icon: ArrowLeftRight, accent: 'text-accent-orange' },
   { id: 'pay-tracker', label: 'Pay Tracker', icon: Calendar, accent: 'text-accent-purple' },
   { id: 'budgets', label: 'Budgets', icon: PieChart, accent: 'text-accent-yellow' },
-  { id: 'dads-debt', label: "Dad's Debt", icon: HandHeart, accent: 'text-accent-red' },
+  { id: 'debt', label: "Debt", icon: HandHeart, accent: 'text-accent-red' },
   { id: 'reports', label: 'Reports', icon: BarChart3, accent: 'text-accent-green' },
   { id: 'settings', label: 'Settings', icon: Settings },
 ];
