@@ -1,6 +1,6 @@
 # 💰 MoFinance
 
-> A secure, full-featured personal budgeting web app — built to grow with you from student life to long-term wealth building.
+> A secure, full-featured personal budgeting web app - built to grow with you from student life to long-term wealth building.
 
 MoFinance is a **100% local, encrypted** budgeting tool. No accounts, no subscriptions, no cloud. Your financial data lives on your device, locked behind AES-256 encryption and a bcrypt-hashed password only you know.
 
